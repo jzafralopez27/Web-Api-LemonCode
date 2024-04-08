@@ -10,7 +10,7 @@ if (app.Environment.IsDevelopment())
 Al borrarla, la página ya se me visualiza correctamente. He descubierto que también puedo añadir en launchSettings.json la variable "ASPNETCORE_ENVIRONMENT": "Development" y de esta manera, la condicional daría true y correría sin problema, pero bueno, la he eliminado.
  
 Creo que el error puede estar en la versión usada de Visual Studio, así como el de Api Web. Yo he usado la versión 8.0, la última que me permite, y en el vídeo sí es cierto que se recomienda usar la 5.0 porque es algo más simple, pero no lo he hecho simplemente porque el IDE no me lo ha permitido, si no recuerdo mal no me deja bajar de la versión 6.0.
-Muy bien, arreglado esto sigo los pasos del vídeo he introduzco actores y películas de ejemplo:
+Muy bien, arreglado esto sigo los pasos del vídeo e introduzco actores y películas de ejemplo.
  
 Ejecuto la app y sale en Swagger sin problemas. Pero, cuando le doy a try out salta un error.
  
